@@ -1,6 +1,6 @@
 # React Simple Rating
 
-> A simple react component for adding a star rating to your project.
+> A simple react component for adding a star rating to your project, fixed up and maintained by [@micahlt](https://github.com/micahlt)
 
 [![NPM](https://img.shields.io/npm/v/react-simple-star-rating.svg)](https://www.npmjs.com/package/react-simple-star-rating) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)![npm bundle size](https://img.shields.io/bundlephobia/min/react-simple-star-rating)![GitHub](https://img.shields.io/github/license/awran5/react-simple-star-rating)
 
@@ -13,13 +13,13 @@
 #### npm
 
 ```sh
-npm i react-simple-star-rating
+npm i @micahlt/react-simple-star-rating
 ```
 
 #### Yarn
 
 ```sh
-yarn add react-simple-star-rating
+yarn add @micahlt/react-simple-star-rating
 ```
 
 <br />

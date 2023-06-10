@@ -88,11 +88,7 @@ export interface RatingProps extends StarIconProps {
  * @returns `boolean`
  */
 function isTouchDevice() {
-  return (
-    (typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches) ||
-    'ontouchstart' in window ||
-    (typeof navigator !== 'undefined' && navigator.maxTouchPoints > 0)
-  )
+  return (window.matchMedia("(pointer: coarse)").matches);
 }
 
 export function Rating({
